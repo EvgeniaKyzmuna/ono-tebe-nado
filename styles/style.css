@@ -18,6 +18,7 @@
 .header__links-list{
     display: flex;
     gap: 32px;
+    list-style-type: circle;
 }
 
 .header__link-list-item_no-bullit{
@@ -254,9 +255,7 @@
     line-height: normal;
     margin-left: -436px;
     margin-top: 32px;
-    text-decoration: none; 
-    border-bottom: 1px #FFF solid;
-    text-decoration: underline;
+    text-decoration: underline; 
 }
 
 .about{
@@ -297,10 +296,10 @@
 }
 
 .about__title{
-    padding: 105px 0 100px 0px;
-    margin: 0;
+    padding: 105px 0px 100px 0px;
+    margin: 0px 0px 0px 0px;
     grid-column: 2;
-    grid-row: 1; 
+    grid-row: 2; 
     
 }
 
@@ -309,7 +308,7 @@
     font-weight: 700;
     text-transform: uppercase;
     line-height: normal;
-    font-family: 'Raleway' sans-serif ;
+    font-family: 'Raleway' sans-serif;
 }
 
 .about__text{
@@ -320,6 +319,8 @@
 .about__text-text{
     font-size: 20px;
     font-weight: 400;
+    margin-top: 99px;
+    
 }
 
 .about__text-text:last-child{
@@ -338,7 +339,7 @@
     line-height: normal;
     width: 1340px;
     max-height: 110px;
-    margin: 2px auto 90px;
+    margin: -98px auto 90px;
 }
 
 .footer__address{
